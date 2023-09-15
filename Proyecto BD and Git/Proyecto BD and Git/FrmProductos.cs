@@ -41,7 +41,23 @@ namespace Proyecto_BD_and_Git
 
         private void dtgProductos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            switch (columna)
+            {
+                case 4:
+                    {
+                        MessageBox.Show(me.Borrar(producto));
+                        Actualizar();
+                    }
+                    break;
+                //case 5:
+                //    {
+                //        FrmProductos pd = new FrmProductos();
+                //        pd.ShowDialog();
+                //        Actualizar();
+                //    }
+                //    break;
+                default: break;
+            }
         }
 
         private void dtgProductos_CellEnter(object sender, DataGridViewCellEventArgs e)
