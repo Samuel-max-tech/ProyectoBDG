@@ -1,0 +1,6 @@
+C:\Users\smart\OneDrive\Escritorio\Examen-1\Proyecto BD and Git\Entidades\bin\Debug\Entidades.dll
+C:\Users\smart\OneDrive\Escritorio\Examen-1\Proyecto BD and Git\Entidades\bin\Debug\Entidades.pdb
+C:\Users\smart\OneDrive\Escritorio\Examen-1\Proyecto BD and Git\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\smart\OneDrive\Escritorio\Examen-1\Proyecto BD and Git\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\smart\OneDrive\Escritorio\Examen-1\Proyecto BD and Git\Entidades\obj\Debug\Entidades.dll
+C:\Users\smart\OneDrive\Escritorio\Examen-1\Proyecto BD and Git\Entidades\obj\Debug\Entidades.pdb
