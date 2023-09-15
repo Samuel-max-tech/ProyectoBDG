@@ -29,7 +29,15 @@ namespace Proyecto_BD_and_Git
 
         private void BtnAgregar1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(me.Guardar(new Productos(0, txtNombre.Text, txtDescripcion.Text, double.Parse(txtPrecio.Text))));
+            if (FrmProductos.producto._Idproductos > 0)
+            {
+                me.Modificar(new Productos(FrmProductos.producto._Idproductos,
+                txtNombre.Text, txtDescripcion.Text, double.Parse(txtPrecio.Text)));
+            }
+            else
+            {
+                MessageBox.Show(me.Guardar(new Productos(0, txtNombre.Text, txtDescripcion.Text, double.Parse(txtPrecio.Text))));
+            }
             Close();
         }
     }

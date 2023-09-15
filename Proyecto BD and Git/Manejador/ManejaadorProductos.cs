@@ -19,7 +19,7 @@ namespace Manejador
             tabla.Columns.Clear();
             tabla.DataSource = ade.Mostrar(f).Tables[0];
             tabla.Columns.Insert(4, c.Boton("Eliminar"));
-            //tabla.Columns.Insert(5, c.Boton("Editar"));
+            tabla.Columns.Insert(5, c.Boton("Editar"));
             tabla.AutoResizeColumns();
             tabla.AutoResizeRows();
         }
@@ -41,6 +41,10 @@ namespace Manejador
                 return ade.Borrar(Entidad);
             else
                 return "";
+        }
+        public void Modificar(dynamic Entidad)
+        {
+            ade.Modificar(Entidad);
         }
     }
 }

@@ -49,13 +49,13 @@ namespace Proyecto_BD_and_Git
                         Actualizar();
                     }
                     break;
-                //case 5:
-                //    {
-                //        FrmProductos pd = new FrmProductos();
-                //        pd.ShowDialog();
-                //        Actualizar();
-                //    }
-                //    break;
+                case 5:
+                    {
+                        FrmAgregarProducto pd = new FrmAgregarProducto();
+                        pd.ShowDialog();
+                        Actualizar();
+                    }
+                    break;
                 default: break;
             }
         }

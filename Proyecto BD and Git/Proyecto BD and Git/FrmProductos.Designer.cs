@@ -39,7 +39,7 @@
             // 
             this.txtBuscar.Location = new System.Drawing.Point(129, 30);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(421, 35);
+            this.txtBuscar.Size = new System.Drawing.Size(550, 35);
             this.txtBuscar.TabIndex = 23;
             this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
@@ -62,7 +62,7 @@
             this.dtgProductos.Margin = new System.Windows.Forms.Padding(6);
             this.dtgProductos.Name = "dtgProductos";
             this.dtgProductos.RowHeadersWidth = 62;
-            this.dtgProductos.Size = new System.Drawing.Size(648, 352);
+            this.dtgProductos.Size = new System.Drawing.Size(829, 349);
             this.dtgProductos.TabIndex = 20;
             this.dtgProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgProductos_CellClick);
             this.dtgProductos.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgProductos_CellEnter);
@@ -73,7 +73,7 @@
             this.BtnAgregar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnAgregar1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnAgregar1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnAgregar1.Location = new System.Drawing.Point(557, 30);
+            this.BtnAgregar1.Location = new System.Drawing.Point(735, 30);
             this.BtnAgregar1.Name = "BtnAgregar1";
             this.BtnAgregar1.Size = new System.Drawing.Size(118, 35);
             this.BtnAgregar1.TabIndex = 24;
@@ -86,13 +86,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Turquoise;
-            this.ClientSize = new System.Drawing.Size(687, 469);
+            this.ClientSize = new System.Drawing.Size(868, 476);
             this.Controls.Add(this.BtnAgregar1);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dtgProductos);
             this.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FrmProductos";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dtgProductos)).EndInit();
